@@ -1,0 +1,13 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/book/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
